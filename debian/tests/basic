@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+
+test_exact_match() {
+  actual=$(seq 10 | fzf --query '^6$' --select-1)
+  expected='6'
+  assertEquals $expected $actual
+}
+
+test_fuzzy_match() {
+  actual=$(printf "hippo\noctopus\ntiger" | fzf --query 'top' --select-1)
+  expected='octopus'
+  assertEquals $expected $actual
+}
+
+. shunit2

@@ -1,0 +1,5 @@
+# Shell integration
+
+## Fish
+
+To install the fzf key bindings for fish, `cp -i /usr/share/doc/fzf/examples/fish_user_key_bindings.fish ~/.config/fish/functions/`
