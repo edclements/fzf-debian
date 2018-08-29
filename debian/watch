@@ -1,0 +1,4 @@
+version=4
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%fzf-$1.tar.gz%" \
+    https://github.com/junegunn/fzf/tags \
+    (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate
