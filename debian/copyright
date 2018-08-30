@@ -1,18 +1,17 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: fzf
 Source: https://github.com/junegunn/fzf
 
-Files: *
-Copyright: 2017 Junegunn Choi
-License: Expat
+Files:     *
+Copyright: 2016-2018 Junegunn Choi
+License:   Expat
 
-Files: debian/*
+Files:     debian/*
 Copyright: 2017 Tom Fitzhenry
-License: Expat
+           2018 Mo Zhou <cdluminate@gmail.com>
+License:   Expat
 
 License: Expat
- The MIT License
- .
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
  in the Software without restriction, including without limitation the rights

@@ -1,2 +1,4 @@
 #!/usr/bin/dh-exec
+bin/fzf-tmux => /usr/bin/fzf-tmux
 shell/key-bindings.fish => /usr/share/fish/vendor_functions.d/fzf_key_bindings.fish
+shell/completion.zsh => /usr/share/zsh/vendor-completions/_fzf

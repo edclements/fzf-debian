@@ -1,8 +1,13 @@
 Source: fzf
 Section: utils
+Homepage: https://github.com/junegunn/fzf
 Priority: optional
-Maintainer: Tom Fitzhenry <tom@tom-fitzhenry.me.uk>
-Build-Depends: debhelper (>= 10),
+Standards-Version: 4.2.1
+Vcs-Browser: https://github.com/tomfitzhenry/pkg-fzf/
+Vcs-Git: https://github.com/tomfitzhenry/pkg-fzf/
+Maintainer: Mo Zhou <cdluminate@gmail.com>
+Build-Depends: debhelper (>= 11~),
+               bash-completion,
                dh-golang,
                dh-exec,
                golang-golang-x-crypto-dev,
@@ -10,22 +15,23 @@ Build-Depends: debhelper (>= 10),
                golang-github-mattn-go-runewidth-dev,
                golang-github-mattn-go-shellwords-dev,
                golang-go (>= 1.5)
-Standards-Version: 4.0.0
-Homepage: https://github.com/junegunn/fzf
-Vcs-Browser: https://github.com/tomfitzhenry/pkg-fzf/
-Vcs-Git: https://github.com/tomfitzhenry/pkg-fzf/
 XS-Go-Import-Path: github.com/junegunn/fzf
-Testsuite: autopkgtest
 
 Package: fzf
 Architecture: any
 Built-Using: ${misc:Built-Using}
-Depends: ${misc:Depends}
-Description: command-line fuzzy finder
- fzf is a general-purpose command-line fuzzy finder.
+Depends: ${misc:Depends},
+Description: general-purpose command-line fuzzy finder
+ It's an interactive Unix filter for command-line that can be used with
+ any list; files, command history, processes, hostnames, bookmarks, git
+ commits, etc.
  .
- fzf will launch interactive finder, read the list from STDIN, and write the
- selected item to STDOUT.
+ Append this line to ~/.bashrc to enable fzf keybindings for Bash:
+   source /usr/share/doc/fzf/examples/key-bindings.bash
  .
- It comes with shell and editor plugins, to allow fuzzy find over shell history
- via C-r.
+ Append this line to ~/.zshrc to enable fzf keybindings for Zsh:
+   source /usr/share/doc/fzf/examples/key-bindings.zsh
+ .
+ Issue the following command to enable fzf keybindings for Fish:
+   ln -s /usr/share/doc/fzf/examples/fish_user_key_bindings.fish \
+         ~/.config/fish/functions/

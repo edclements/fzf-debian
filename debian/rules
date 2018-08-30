@@ -1,4 +1,8 @@
 #!/usr/bin/make -f
+export DH_GOPKG := github.com/junegunn/fzf
 
 %:
-	dh $@ --buildsystem=golang --with=golang
+	dh $@ -Sgolang --with=golang,bash-completion
+
+override_dh_compress:
+	dh_compress -Xkey-bindings -Xcompletion -Xfzf.vim

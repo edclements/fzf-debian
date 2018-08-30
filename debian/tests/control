@@ -1,2 +1,5 @@
 Tests: basic
 Depends: @, shunit2
+
+Test-Command: fzf --version
+Depends: @

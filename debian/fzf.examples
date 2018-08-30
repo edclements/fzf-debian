@@ -1,1 +1,5 @@
-debian/examples/fish_user_key_bindings.fish
+shell/key-bindings.bash
+shell/key-bindings.zsh
+shell/key-bindings.fish
+debian/fish_user_key_bindings.fish
+plugin/fzf.vim
