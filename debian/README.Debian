@@ -1,0 +1,22 @@
+Bash
+====
+
+Append this line to ~/.bashrc to enable fzf keybindings for Bash:
+
+   source /usr/share/doc/fzf/examples/key-bindings.bash
+
+Zsh
+===
+
+Append this line to ~/.zshrc to enable fzf keybindings for Zsh:
+
+   source /usr/share/doc/fzf/examples/key-bindings.zsh
+
+Fish
+====
+
+ Issue the following command to enable fzf keybindings for Fish:
+
+   ln -s /usr/share/doc/fzf/examples/fish_user_key_bindings.fish \
+         ~/.config/fish/functions/
+
