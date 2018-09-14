@@ -3,8 +3,8 @@ Section: utils
 Homepage: https://github.com/junegunn/fzf
 Priority: optional
 Standards-Version: 4.2.1
-Vcs-Browser: https://salsa.debian.org/lumin-guest/fzf
-Vcs-Git: https://salsa.debian.org/lumin-guest/fzf
+Vcs-Browser: https://salsa.debian.org/debian/fzf
+Vcs-Git: https://salsa.debian.org/debian/fzf.git
 Maintainer: Mo Zhou <cdluminate@gmail.com>
 Build-Depends: debhelper (>= 11~),
                bash-completion,
