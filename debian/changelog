@@ -1,9 +1,9 @@
-fzf (0.17.4-3) UNRELEASED; urgency=medium
+fzf (0.17.4-3) unstable; urgency=medium
 
   * Add needs-root Restriction to autopkgtest control file.
   * Transfer packaging repo to Salsa/Debain group.
 
- -- Mo Zhou <cdluminate@gmail.com>  Fri, 14 Sep 2018 05:47:56 +0000
+ -- Mo Zhou <cdluminate@gmail.com>  Fri, 14 Sep 2018 05:49:05 +0000
 
 fzf (0.17.4-2) unstable; urgency=medium
 
