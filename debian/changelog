@@ -1,9 +1,9 @@
-fzf (0.17.5-1) UNRELEASED; urgency=medium
+fzf (0.17.5-1) unstable; urgency=medium
 
   * New upstream version 0.17.5
   * autopkgtest: skip fuzzy match test when /dev/tty is not accessible.
 
- -- Mo Zhou <cdluminate@gmail.com>  Thu, 25 Oct 2018 07:16:14 +0000
+ -- Mo Zhou <cdluminate@gmail.com>  Thu, 25 Oct 2018 07:23:21 +0000
 
 fzf (0.17.4-3) unstable; urgency=medium
 
