@@ -1,6 +1,6 @@
 Tests: basic
 Depends: @, shunit2
-Restrictions: needs-root,
+Restrictions: isolation-container,
 
 Test-Command: fzf --version
 Depends: @
