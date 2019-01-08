@@ -20,7 +20,7 @@ XS-Go-Import-Path: github.com/junegunn/fzf
 Package: fzf
 Architecture: any
 Built-Using: ${misc:Built-Using}
-Depends: ${misc:Depends},
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Description: general-purpose command-line fuzzy finder
  It's an interactive Unix filter for command-line that can be used with
  any list; files, command history, processes, hostnames, bookmarks, git
