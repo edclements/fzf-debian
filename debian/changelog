@@ -1,3 +1,13 @@
+fzf (0.17.5-2) unstable; urgency=medium
+
+  * Autopkgtest: replace needs-root with isolation-container.
+  * Update README.Debian, adding a usage hint for fzf.vim .
+  * Symlink examples/plugin/fzf.vim -> ../fzf.vim (Closes: #918688)
+  * Add the missing ${shlibs:Depends} to Depends.
+  * Bump Standards-Version to 4.3.0 (no change).
+
+ -- Mo Zhou <cdluminate@gmail.com>  Tue, 08 Jan 2019 14:51:27 +0000
+
 fzf (0.17.5-1) unstable; urgency=medium
 
   * New upstream version 0.17.5
