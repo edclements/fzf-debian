@@ -15,8 +15,14 @@ Append this line to ~/.zshrc to enable fzf keybindings for Zsh:
 Fish
 ====
 
- Issue the following command to enable fzf keybindings for Fish:
+Issue the following commands to enable fzf keybindings for Fish:
 
-   ln -s /usr/share/doc/fzf/examples/fish_user_key_bindings.fish \
-         ~/.config/fish/functions/
+   mkdir -p ~/.config/fish/functions/
+   ln -s /usr/share/doc/fzf/examples/fish_user_key_bindings.fish ~/.config/fish/functions/
 
+Vim
+===
+
+The most straightforward way is to append the following line to your vimrc:
+
+   source /usr/share/doc/fzf/examples/fzf.vim
