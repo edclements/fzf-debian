@@ -1,3 +1,9 @@
+fzf (0.17.5-2~bpo9+1) stretch-backports; urgency=medium
+
+  * Downgrade debhelper compat to 10.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Fri, 15 Feb 2019 01:46:21 +0000
+
 fzf (0.17.5-2) unstable; urgency=medium
 
   * Autopkgtest: replace needs-root with isolation-container.
