@@ -1,3 +1,9 @@
+fzf (0.18.0-1) experimental; urgency=medium
+
+  * New upstream version 0.18.0
+
+ -- Mo Zhou <cdluminate@gmail.com>  Tue, 02 Apr 2019 07:13:56 +0000
+
 fzf (0.17.5-2) unstable; urgency=medium
 
   * Autopkgtest: replace needs-root with isolation-container.
