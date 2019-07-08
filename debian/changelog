@@ -1,3 +1,9 @@
+fzf (0.18.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Mo Zhou <cdluminate@gmail.com>  Mon, 08 Jul 2019 06:13:24 +0000
+
 fzf (0.18.0-1) experimental; urgency=medium
 
   * New upstream version 0.18.0
